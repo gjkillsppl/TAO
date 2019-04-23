@@ -7,8 +7,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
     <title>OSCAR - A premium portfolio / agency template from designova</title>
-    <meta name="description" content="OSCAR - A premium portfolio / agency template from designova">
-    <meta name="author" content="designova">
+    <meta name="description" content="TAO - Taller de Arquitectura Ortegón">
+    <meta name="author" content="belerofon">
 
     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="stylesheets/sinister.css">
     <link rel="stylesheet" href="stylesheets/venobox.css">
     <link rel="stylesheet" href="stylesheets/slimmenu.css">
-    <link rel="stylesheet" href="stylesheets/styles.scss">
+    <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/main-bg.css">
     <link rel="stylesheet" href="stylesheets/main-responsive.css">
 
@@ -73,7 +73,7 @@
         
         <section class="container about pad-top-half pad-bottom-half">
   
-          <div class="row">
+          <div class="row contenedor">
                 <article class="col-md-5 text-left  inner-pad">
                   <h6 class="super-text  font2bold black">Taller de Arquitectura <br />Ortegón </h6>
                 </article>
@@ -96,10 +96,10 @@
   
               <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info ui web">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/casagpa.jpg"/>
-                      <a  class="venobox" data-gall="portfolio-gallery" href="images/works/01.gif">
-                          <div class="works-item-inner ImageOverlayCl">
-                            <p class="valign text-center"><span class="white font1">Anonymus</span></p>
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/sanantonio.jpg"/>
+                      <a  href="project03.php">
+                          <div class="works-item-inner ImageOverlayH">
+                            <p class="valign text-center"><span class="white font1">Casa CM</span></p>
                           </div>
                       </a>
               </div>
@@ -109,9 +109,9 @@
   
               <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info logos ui">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/waikiki.jpg"/>
-                      <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/casagpa.jpg"/>
+                      <a  href="project03.php">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Capdevilla</span></p>
                           </div>
                       </a>
@@ -121,9 +121,9 @@
   
               <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info branding graphics">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/avenidita.jpg"/>
-                      <a  class="venobox" data-gall="portfolio-gallery" href="images/works/03.jpg">
-                          <div class="works-item-inner ImageOverlayCl">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/telchac.jpg"/>
+                      <a  href="project03.php">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Oregon</span></p>
                           </div>
                       </a>
@@ -132,9 +132,9 @@
   
           <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info web graphics">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/casax.jpg"/>
-                      <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/alamo.jpg"/>
+                      <a  href="project03.php">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Benterivo</span></p>
                           </div>
                       </a>
@@ -147,7 +147,7 @@
               <div class="works-item  ImageWrapper works-item-one-third info branding">
                       <img data-no-retina alt="" title="" class="img-responsive" src="images/works/temozon.jpg"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/works/casax.jpg">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Laura's Inn</span></p>
                           </div>
                       </a>
@@ -161,7 +161,7 @@
               <div class="works-item  ImageWrapper works-item-one-third info logos">
                       <img data-no-retina alt="" title="" class="img-responsive" src="images/works/montecristo.jpg"/>
                       <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Green Fox</span></p>
                           </div>
                       </a>
@@ -171,11 +171,12 @@
   
   
               <!-- start : works-item -->
-              <div class="works-item  ImageWrapper works-item-one-third info logos ui">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/08.jpg"/>
-                      <a  class="venobox" data-gall="portfolio-gallery" href="images/works/08.jpg">
-                          <div class="works-item-inner ImageOverlayCl">
-                            <p class="valign text-center"><span class="white font1">Nexxa</span></p>
+             
+              <div class="works-item  ImageWrapper works-item-one-third info branding">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/casacm.jpg"/>
+                      <a  href="project.html">
+                          <div class="works-item-inner ImageOverlayH">
+                            <p class="valign text-center"><span class="white font1">R.T.W</span></p>
                           </div>
                       </a>
               </div>
@@ -185,9 +186,9 @@
   
               <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info web">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/06.jpg"/>
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/zapata.jpg"/>
                       <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Novomoto</span></p>
                           </div>
                       </a>
@@ -199,9 +200,9 @@
   
                <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info logos graphics">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/09.jpg"/>
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/waikiki.jpg"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/works/09.jpg">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">100Degree</span></p>
                           </div>
                       </a>
@@ -211,22 +212,23 @@
   
   
               <!-- start : works-item -->
-              <div class="works-item  ImageWrapper works-item-one-third info branding">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/10.gif"/>
-                      <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
-                            <p class="valign text-center"><span class="white font1">R.T.W</span></p>
+              <div class="works-item  ImageWrapper works-item-one-third info logos ui">
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/avenidita.jpg"/>
+                      <a  class="venobox" data-gall="portfolio-gallery" href="images/works/08.jpg">
+                          <div class="works-item-inner ImageOverlayH">
+                            <p class="valign text-center"><span class="white font1">Nexxa</span></p>
                           </div>
                       </a>
               </div>
+              
               <!-- end : works-item -->
   
   
               <!-- start : works-item -->
               <div class="works-item  ImageWrapper works-item-one-third info branding">
-                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/11.jpg"/>
+                      <img data-no-retina alt="" title="" class="img-responsive" src="images/works/alpha.jpg"/>
                       <a  href="project.html">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">CenterPort</span></p>
                           </div>
                       </a>
@@ -238,7 +240,7 @@
               <div class="works-item  ImageWrapper works-item-one-third info branding">
                       <img data-no-retina alt="" title="" class="img-responsive" src="images/works/13.jpg"/>
                       <a  class="venobox" data-gall="portfolio-gallery" href="images/works/12.jpg">
-                          <div class="works-item-inner ImageOverlayCl">
+                          <div class="works-item-inner ImageOverlayH">
                             <p class="valign text-center"><span class="white font1">Classic 32</span></p>
                           </div>
                       </a>
@@ -261,23 +263,7 @@
   
       <!-- FOOTER
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      
-  <footer class="mastfoot">
-        <div class="container">
-          <div class="row">
-            <article class="col-md-5 text-left">
-              <h3 class="font2 black">oscar</h3>
-              <h6 class="font1 grey">A homegrown design studio from Berlin. <br/>We create beatuful identities &amp; amazing logo for modern business.</h6>
-            </article>
-            <article class="col-md-5 col-md-offset-2 text-left">
-              <h3 class="font2 black">&copy;</h3>
-              <h6 class="font1 grey">Copyright 2019 Tao Arquitectura.<br/><a href="">Todos los derechos reservados</a></h6>
-            </article>
-          </div>
-        </div>
-  
-      </footer>
-      <!-- end : mastfoot -->
+      <?php include "./footer.php"; ?>
   
 </div>
       <!-- End Layout

@@ -48,6 +48,7 @@
           <ul>
             <li><a href="#"><span class="ion-social-twitter black"></span></a></li>
             <li><a href="#"><span class="ion-social-facebook black"></span></a></li></li>
+            <li><a href="#"><span class="ion-social-instagram-outline black"></span></a></li></li>
           </ul>
         </div>
 
@@ -67,9 +68,9 @@
                       <a class="main-link font1 hvr-sweep-to-right activelink" href="#">Portafolio</a>
                   </li>
                   <li>
-                      <a class="main-link font1 hvr-sweep-to-right" href="about01.html">Taller</a>
+                      <a class="main-link font1 hvr-sweep-to-right" href="about02.php">Taller</a>
                   </li>
-                  <li><a class="main-link font1 hvr-sweep-to-right" href="contact.html">Contacto</a></li>
+                  <li><a class="main-link font1 hvr-sweep-to-right" href="contacto.php">Contacto</a></li>
                 </ul>
           </nav>
 

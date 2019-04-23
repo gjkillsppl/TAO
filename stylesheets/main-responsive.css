@@ -179,7 +179,7 @@ there.
         padding-bottom: 30px;
     }
     .promo-text, .super-text{
-      font-size: 24px;
+      font-size: 3em;
       line-height: 31px;
     }
     .main-heading{
@@ -268,8 +268,8 @@ there.
       line-height: 23px;
     }
     .promo-text, .super-text{
-      font-size: 18px;
-      line-height: 25px;
+      font-size: 3em;
+      line-height: initial;
     }
 }
 

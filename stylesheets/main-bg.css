@@ -8,9 +8,9 @@ replace preview images directly;
 */
 
 /*sample*/
-footer.mastfoot{
+/* footer.mastfoot{
 	background-image: url('../images/stripe.png');
-}
+} */
 .counter-region-bg{
 	background-image: url('../images/bg/05.jpg');
 }
@@ -28,4 +28,37 @@ footer.mastfoot{
 }
 .parallax-showcase-03{
 	background-image: url('../images/bg/01.jpg');
+}
+
+
+
+/* SanAntonio93 */
+.san-antonio .parallax-showcase-01 {
+	background-image: url('../images/works/sanantonio.jpg');
+	background-size: contain;
+}
+
+.san-antonio .parallax-showcase-02 {
+	background-image: url('../images/works/sanantonio/sanantonio4.jpg');
+}
+
+.san-antonio .parallax-showcase-03 {
+	background-image: url('../images/works/sanantonio/sanantonio3.jpg');
+}
+
+.san-antonio .parallax-showcase-04 {
+	background-image: url('../images/works/sanantonio/sanantonio5.jpg');
+}
+
+.san-antonio .parallax-showcase-05{
+	background-image: url('../images/works/sanantonio/sanantonio6.jpg');
+	background-size: contain;
+	background-position-x:center !important;
+	background-repeat: no-repeat;
+}
+
+.san-antonio .parallax-showcase-07 {
+	background-image: url('../images/works/sanantonio/sanantonio7.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
 }

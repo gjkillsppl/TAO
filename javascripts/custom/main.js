@@ -139,8 +139,8 @@
             autoHeight: true,
             items: 1,
             loop: true,
-            nav: true,
-            dots: false,
+            nav: false,
+            dots: true,
             navText: false,
             responsive:{
                 0:{
@@ -246,7 +246,8 @@
         //Initialize Each Parallax Layer  
         function parallaxInit() {
             $.stellar({
-                positionProperty: 'transform'
+                positionProperty: 'transform',
+                 scrollProperty: 'scroll'
             });
         }
 
@@ -263,14 +264,29 @@
             //Dectivate Parallax effect if mobile device is detected (bg image is displayed)
             $('.parallax, .parallax-layer').addClass('no-parallax');
 
-        }   
-
-        // Smooth State
-        $(function() {
-          $('#main').smoothState();
-        });
+        }  
+        
+    
         
 
 })();
 //  Outer wrapper $(function ($)  : ends
+
+document.addEventListener("DOMContentLoaded", function (event) {
+
+    // wait until window is loaded - meaning all images, stylesheets, js, fonts, media assets, and links
+    window.addEventListener("load", function (e) {
+
+        var titulo = $(".san");
+        var proyecto = $(".main-heading");
+        var tl = new TimelineLite();
+        tl.from(titulo, 2, {bottom:100, autoAlpha:0,delay:1});
+        tl.from(proyecto, 1.5, {bottom: 100, autoAlpha: 0}, "-=2")
+
+
+    }, false);
+});
+
+
+
 
