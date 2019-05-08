@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/main-bg.css">
     <link rel="stylesheet" href="stylesheets/main-responsive.css">
-
+    <link rel="stylesheet" href="stylesheets/animsition.min.css">
     <!-- LESS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- <link rel="stylesheet/less" type="text/css" href="less/color.less">
@@ -49,26 +49,73 @@
 
 </head>
 
-<body class="san-antonio">
+<body class="san-antonio bg-init">
+  <div class="animsition-overlay">
 
 
 
-    <!-- Preloader
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div id="preloader">
-        <div id="status"></div>
-    </div>
-    <!-- end : preloader -->
+
+   <!-- Preloader
+ –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+   <!-- <div id="preloader">
+       <div id="status"></div>
+   </div> -->
+   <!-- end : preloader -->
+
 
 
     
     <!-- MASTER CONTENT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <?php include "./menu.php"; ?>
-    
-      <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
+    <section class="mastwrap">
+        <section class="mastwrap">
 
-      <div class="parallax-window" data-parallax="scroll" data-image-src="/path/to/image.jpg"></div>
+
+        <section class="container about  pad-top pad-bottom">
+
+          <div class="row">
+                <article class="col-md-5 text-left  inner-pad">
+                  <h6 class="super-text-2 san  font2bold black">San</h6>
+                  <h6 class="super-text-2 san  font2bold black">Antonio 93</h6>
+                </article>
+                <article class="col-md-5 col-md-offset-2 text-left ">
+                        <h3 class="main-heading  font2light black"> 
+                        <strong>Año : </strong>2013 </br>
+                        <strong>Ubicación:</strong> Mérida, yucatán, méxico.  </br>
+                        <strong>Proyecto:</strong> Arq. José maría ortegón góngora. </br>
+                        <strong>Colaboradores:</strong> Arq. Alejandra Mier y Terán Ortiz. Arq. Carla Blanco Cuevas. Arq. Carlos Góngora Bolio. </br>
+                        <strong>Fotografia:</strong> esdras castillo </br>
+                        </h3>
+                </article>
+          </div>
+
+        </section>
+
+
+
+    <section class="parallax-showcase-wrap ">
+
+      <div class="parallax-window" data-parallax="scroll" data-image-src="images/works/sanantonio/sanantonio4.jpg" data-position-x="center" data-natural-width="633"></div>
+
+      <div class="container-fluid">
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="parallax-window col-md-6" data-parallax="scroll" data-image-src="images/works/sanantonio/sanantonio3.jpg"></div>
+            <div class="parallax-window col-md-6" data-parallax="scroll" data-image-src="images/works/sanantonio/sanantonio6.jpg" ></div>
+          </div>
+
+        
+        </div>
+      
+      </div>
+
+      <div class="parallax-window" data-parallax="scroll" data-image-src="images/works/sanantonio/sanantonio4.jpg" data-position-x="center" data-natural-width="633"></div>
+
+      
+
+    </section>
       
 
 
@@ -128,7 +175,7 @@
     
     <?php include "./footer.php"; ?>
     <!-- end : mastfoot -->
-
+</div>
     <!-- End Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -136,7 +183,9 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="javascripts/libs/common.js"></script>
     <script src="elements/js/elements.js"></script>
+    <script src="javascripts/libs/parallax.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="javascripts/custom/animsition.min.js"></script>
     <script src="javascripts/custom/main.js"></script>
     
 

@@ -34,8 +34,8 @@ $(function ($) {
             autoHeight: false,
             items: 1,
             loop: true,
-            nav: true,
-            dots: false,
+            nav: false,
+            dots: true,
             navText: false,
             responsive:{
                 0:{

@@ -2,32 +2,13 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <nav class="mobile-nav ">
               <ul class="slimmenu font1">
-                <li>
-                    <a class="sub-collapser" href="">Portafolio</a>
-                    <ul>
-                      <li><a href="index.html">portfolio</a></li>
-                      <li><a href="index02.html">slider</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="sub-collapser" href="">portfolio</a>
-                    <ul>
-                        <li><a href="works.html">2 col</a></li>
-                        <li><a href="works02.html">3 col</a></li>
-                        <li><a href="works03.html">4 col</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a class="sub-collapser" href="">pages</a>
-                    <ul>
-                      <li><a href="about01.html">studio</a></li>
-                      <li><a href="about02.html">personal</a></li>
-                      <li><a href="elements.html">elements</a></li>
-                      <li><a href="news.html">news list</a></li>
-                      <li><a href="post.html">news post</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contacto</a></li>
+                  <li>
+                      <a class="main-link animsition-link font1 hvr-sweep-to-right activelink" href="#">Portafolio</a>
+                  </li>
+                  <li>
+                      <a class="main-link animsition-link font1 hvr-sweep-to-right" href="taller.php">Taller</a>
+                  </li>
+                  <li><a class="main-link  animsition-link font1 hvr-sweep-to-right" href="contacto.php">Contacto</a></li>
               </ul>
   </nav>
   <!-- mobile only navigation : ends -->
@@ -65,12 +46,12 @@
 
                 <ul class="main-menu text-left clearfix font2" ">
                   <li>
-                      <a class="main-link font1 hvr-sweep-to-right activelink" href="#">Portafolio</a>
+                      <a class="main-link animsition-link font1 hvr-sweep-to-right activelink" href="#">Portafolio</a>
                   </li>
                   <li>
-                      <a class="main-link font1 hvr-sweep-to-right" href="about02.php">Taller</a>
+                      <a class="main-link animsition-link font1 hvr-sweep-to-right" href="taller.php">Taller</a>
                   </li>
-                  <li><a class="main-link font1 hvr-sweep-to-right" href="contacto.php">Contacto</a></li>
+                  <li><a class="main-link  animsition-link font1 hvr-sweep-to-right" href="contacto.php">Contacto</a></li>
                 </ul>
           </nav>
 

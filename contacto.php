@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_MX">
 
 <head>
 
     <!-- Basic Page Info
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>OSCAR - A premium portfolio / agency template from designova</title>
-    <meta name="description" content="OSCAR - A premium portfolio / agency template from designova">
+    <title>TAO - Taller de Arquitectura Ortegón</title>
+    <meta name="description" content="TAO - Taller de Arquitectura Ortegón">
     <meta name="author" content="designova">
 
     <!-- Mobile Specific Metas
@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="stylesheets/main.css">
     <link rel="stylesheet" href="stylesheets/main-bg.css">
     <link rel="stylesheet" href="stylesheets/main-responsive.css">
+     <link rel="stylesheet" href="stylesheets/animsition.min.css">
 
     <!-- LESS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -48,15 +49,12 @@
 
 </head>
 
-<body>
+<body class="animsition-overlay">
 
 
 
     <!-- Preloader
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div id="preloader">
-        <div id="status"></div>
-    </div>
     <!-- end : preloader -->
 
 
@@ -116,7 +114,7 @@
                                    <article>
                                     <textarea placeholder="Mensaje" name="message" cols="40" rows="5" id="msg" class="border-form white font4light"></textarea>
                                     <div class="btn-wrap  text-left">
-                                      <button class="btn  btn-oscar btn-oscar-dark" id="submit" name="submit" type="submit">Enviar</button>
+                                      <button class="btn  btn-oscar btn-oscar-dark hvr-sweep-to-right" id="submit" name="submit" type="submit">Enviar</button>
                                     </div>
                                   </article>
                                </form>
@@ -163,7 +161,9 @@
     <script src="javascripts/libs/common.js"></script>
     <script src="elements/js/elements.js"></script>
     <script src="javascripts/custom/form-validation.js"></script>
+    <script src="javascripts/custom/animsition.min.js"></script>
     <script src="javascripts/custom/main.js"></script>
+    
 
   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 

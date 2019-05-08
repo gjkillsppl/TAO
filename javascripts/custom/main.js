@@ -276,17 +276,50 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     // wait until window is loaded - meaning all images, stylesheets, js, fonts, media assets, and links
     window.addEventListener("load", function (e) {
-
         var titulo = $(".san");
         var proyecto = $(".main-heading");
         var tl = new TimelineLite();
-        tl.from(titulo, 2, {bottom:100, autoAlpha:0,delay:1});
-        tl.from(proyecto, 1.5, {bottom: 100, autoAlpha: 0}, "-=2")
+        TweenLite.defaultEase = Expo.easeOut;
+        tl.from(titulo, 1, {
+            right: 20,
+            autoAlpha: 0,
+            delay: 1,
+            ease: Sine.easeOut.config(4)
+        });
+        tl.from(proyecto, 0.5, {
+            right: 20,
+            autoAlpha: 0
+        }, 1, '-=1')
 
 
     }, false);
 });
 
+$(document).ready(function() {
+  $('.animsition-overlay').animsition({
+    inClass: 'overlay-slide-in-left',
+    outClass: 'overlay-slide-out-left',
+    overlay : true,
+    inDuration: 900,
+    outDuration: 700,
+    overlayClass : 'animsition-overlay-slide',
+    loading:true,
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '<img src="images/tao.svg" />', // e.g '<img src="loading.svg" />'
+    overlayParentElement : 'body',
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true
+  })
+  .one('animsition.inStart',function(){
+    $('body').removeClass('bg-init');
+  });
+});
 
+
+$(".collapse-button").click(function () { 
+    $(".main-heading").toggle() })
 
 

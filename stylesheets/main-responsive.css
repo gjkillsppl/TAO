@@ -197,6 +197,9 @@ there.
         padding-left: 50px;
         padding-right: 50px;
     }
+    .parallax-window {
+      min-height: 50vh;
+    }
 }
 
 
@@ -256,8 +259,9 @@ there.
       line-height: 31px;
     }
     .main-heading, .news-post h3{
-      font-size: 16px;
-      line-height: 23px;
+      font-size: 1em;
+      line-height: 1.5;
+      text-align: center;
     }
     .super-heading {
       font-size: 32px;
